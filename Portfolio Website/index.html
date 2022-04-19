@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Head-->
+<head>
+    <meta charset="utf-8">
+    <title>Craig Cowden</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheet/stylesheet.css">
+</head>
+<!--End Head-->
+
+<!--Body-->
+<body class="Background">
+
+    <!--Navbar-->
+    <div class="Navbar">
+        <a class="active" href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#GitHub">GitHub</a>
+        <a href="#Contact">Contact</a>
+    </div>
+    <br>
+    <br>
+    <!--Background video-->
+    <div id="Home">
+        <video autoplay muted loop id="forest_video">
+            <source src="video/forest.mp4" type="video/mp4">
+            Your browser does not support html5 video.
+        </video>
+    </div>
+    <!--Video text-->
+    <div class="Video_Text">
+        <h1 class="white-text">Craig Cowden's Portfolio</h1>
+        <strong>
+            <p class="center">
+                <q>Happiness lies in the joy of achievement and the thrill of creative effort.
+                </q>
+                <br> -Franklin D. Roosevelt
+                <br>
+                <br> My name is Craig Cowden. Welcome to my portfolio website.
+                <br>
+                <br>Thank you and enjoy!
+            </p>
+        </strong>
+    </div>
+    <!--About Section-->
+    <div class="Row" id="About">
+        <!--Left Column-->
+        <div class="Column_2">
+            <img src="images/apple.jpg" alt="programming">
+        </div>
+        <!--Right Column-->
+        <div class="Column_1">
+            <h1>About</h1>
+            <p>
+                I am a HTML and CSS developer who loves to code! I also enjoy growing cactus and collecting mineral specimens.
+                <br>
+                <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>'s HTML and CSS Designers Boot Camp. I'm trained and experienced in HTML, CSS, and Javascript!
+                <br>
+                <br>I would love to work with you on your project!
+            </p>
+        </div>
+
+    <!--Github Section-->
+    <div class="Row" id="GitHub">
+        <!--Left Column-->
+        <div class="Column_1">
+            <h1>GitHub</h1>
+            <p>
+                You can view my coding projects on my GitHub profile here:
+                <br>
+                <p class="center"><a href="https://github.com/craiglectric/" target="_blank">Craig Cowden's GitHub</a></p>
+            </p>
+        </div>
+        <!--Right Column-->
+        <div class="Column_2">
+            <a href="https://github.com/craiglectric/" target="_blank"><img src="images/github.png" alt="github logo"></a>
+        </div>
+    </div>
+
+    <!--Contact Section-->
+    <div class="Row" id="Contact">
+        <!--Contact Image, left column-->
+        <div class="Column_2 Column_tall">
+            <img src="images/code.jpg" alt="code">
+        </div>
+        <!--Contact Form, right column-->
+        <div class="Column_1 Column_tall">
+            <h1>Contact</h1>
+            <form action="https://formspree.io/f/xdobwjqk" method="POST">
+                <label>Name:</label>
+                    <input type="text" placeholder="Your Name">
+                <label>Email:</label>
+                    <input type="text" id="Email" name="Email" placeholder="Your Email">
+                <label>Message:</label>
+                <input type="text" id="Message" name="Message" placeholder="Your Message">
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
+    <!--Footer Section-->
+    <footer>
+        <p>
+            <p class="center">&copy Craig Cowden 2022</p>
+            <br>
+        </p>
+    </footer>
+</body>
+<!--End Body-->
+
+</html>
